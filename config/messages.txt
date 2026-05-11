@@ -1,0 +1,214 @@
+messages:
+  choose_language:
+    en: "Welcome! Please choose your language:"
+    ko: "환영합니다! 언어를 선택해 주세요:"
+    ru: "Добро пожаловать! Пожалуйста, выберите язык:"
+
+  welcome:
+    en: |
+      Welcome to Korea Study Helper! 🇰🇷
+
+      We help students like you study in South Korea.
+      I'll ask you a few quick questions to understand your needs — it takes less than 2 minutes.
+
+      Type /cancel at any time to stop.
+    ko: |
+      한국 유학 도우미에 오신 것을 환영합니다! 🇰🇷
+
+      저희는 한국 유학을 원하는 학생들을 돕고 있습니다.
+      몇 가지 간단한 질문을 드리겠습니다 — 2분도 걸리지 않습니다.
+
+      언제든지 /cancel을 입력하면 중단할 수 있습니다.
+    ru: |
+      Добро пожаловать в Korea Study Helper! 🇰🇷
+
+      Мы помогаем таким студентам, как вы, учиться в Южной Корее.
+      Я задам вам несколько коротких вопросов — это займёт менее 2 минут.
+
+      Введите /cancel в любой момент, чтобы остановиться.
+
+  ask_name:
+    en: "What is your full name?"
+    ko: "성함이 어떻게 되세요?"
+    ru: "Как вас зовут? (полное имя)"
+
+  ask_age:
+    en: "How old are you?"
+    ko: "나이가 어떻게 되세요?"
+    ru: "Сколько вам лет?"
+
+  ask_country:
+    en: "Which country are you currently living in?"
+    ko: "현재 어느 나라에 살고 계세요?"
+    ru: "В какой стране вы сейчас живёте?"
+
+  ask_education:
+    en: "What is your current education level?"
+    ko: "현재 학력이 어떻게 되세요?"
+    ru: "Какой у вас текущий уровень образования?"
+
+  ask_field:
+    en: "What field of study are you interested in?\n(e.g. Computer Science, Business, Korean Language, Design...)"
+    ko: "어떤 분야를 공부하고 싶으세요?\n(예: 컴퓨터 공학, 경영학, 한국어, 디자인...)"
+    ru: "Какую область вы хотите изучать?\n(например: информатика, бизнес, корейский язык, дизайн...)"
+
+  ask_arrival:
+    en: "When do you plan to come to Korea?"
+    ko: "언제 한국에 오실 계획인가요?"
+    ru: "Когда вы планируете приехать в Корею?"
+
+  ask_budget:
+    en: "What is your monthly budget (in USD)?"
+    ko: "월 예산이 어떻게 되세요? (USD 기준)"
+    ru: "Каков ваш ежемесячный бюджет (в USD)?"
+
+  ask_email:
+    en: "Finally, what is your email address so our team can contact you?"
+    ko: "마지막으로, 저희 팀이 연락드릴 수 있도록 이메일 주소를 알려주세요."
+    ru: "Последний вопрос: какой ваш адрес электронной почты, чтобы мы могли с вами связаться?"
+
+  summary_header:
+    en: "Here is a summary of your answers. Is everything correct?"
+    ko: "입력하신 내용을 확인해 주세요. 모든 정보가 정확한가요?"
+    ru: "Вот сводка ваших ответов. Всё верно?"
+
+  thank_you:
+    en: |
+      Thank you! 🙏
+      Our team will review your information and contact you within 48 hours.
+      We look forward to helping you start your Korean adventure! 🇰🇷
+    ko: |
+      감사합니다! 🙏
+      저희 팀이 48시간 이내에 연락드릴 예정입니다.
+      여러분의 한국 유학을 도울 수 있기를 기대합니다! 🇰🇷
+    ru: |
+      Спасибо! 🙏
+      Наша команда свяжется с вами в течение 48 часов.
+      Мы с нетерпением ждём возможности помочь вам начать корейское приключение! 🇰🇷
+
+  cancelled:
+    en: "Registration cancelled. Type /start whenever you want to begin again."
+    ko: "등록이 취소되었습니다. 다시 시작하려면 /start를 입력하세요."
+    ru: "Регистрация отменена. Введите /start, когда захотите начать снова."
+
+  invalid_name:
+    en: "Please enter your full name (at least 2 characters)."
+    ko: "성함을 입력해 주세요 (최소 2자 이상)."
+    ru: "Пожалуйста, введите своё полное имя (не менее 2 символов)."
+
+  invalid_age:
+    en: "Please enter a valid age (a number between 10 and 80)."
+    ko: "올바른 나이를 입력해 주세요 (10~80 사이의 숫자)."
+    ru: "Пожалуйста, введите корректный возраст (число от 10 до 80)."
+
+  invalid_country:
+    en: "Please enter your country name."
+    ko: "국가명을 입력해 주세요."
+    ru: "Пожалуйста, введите название страны."
+
+  invalid_email:
+    en: "That doesn't look like a valid email. Please try again (e.g. name@example.com)."
+    ko: "유효하지 않은 이메일 형식입니다. 다시 시도해 주세요 (예: name@example.com)."
+    ru: "Похоже, это неверный адрес электронной почты. Попробуйте ещё раз (например: name@example.com)."
+
+education_options:
+  high_school:
+    en: "🏫 High School"
+    ko: "🏫 고등학교"
+    ru: "🏫 Средняя школа"
+  bachelor:
+    en: "🎓 Bachelor's"
+    ko: "🎓 학사"
+    ru: "🎓 Бакалавриат"
+  master:
+    en: "🎓 Master's"
+    ko: "🎓 석사"
+    ru: "🎓 Магистратура"
+  other:
+    en: "📄 Other"
+    ko: "📄 기타"
+    ru: "📄 Другое"
+
+arrival_options:
+  fall_2026:
+    en: "Fall 2026 (Sep–Dec)"
+    ko: "2026년 가을학기 (9~12월)"
+    ru: "Осень 2026 (сен–дек)"
+  spring_2027:
+    en: "Spring 2027 (Mar–Jun)"
+    ko: "2027년 봄학기 (3~6월)"
+    ru: "Весна 2027 (мар–июн)"
+  fall_2027:
+    en: "Fall 2027 (Sep–Dec)"
+    ko: "2027년 가을학기 (9~12월)"
+    ru: "Осень 2027 (сен–дек)"
+  spring_2028:
+    en: "Spring 2028 (Mar–Jun)"
+    ko: "2028년 봄학기 (3~6월)"
+    ru: "Весна 2028 (мар–июн)"
+  not_sure:
+    en: "Not sure yet"
+    ko: "아직 모르겠어요"
+    ru: "Пока не знаю"
+
+budget_options:
+  under_500:
+    en: "Under $500/month"
+    ko: "월 $500 미만"
+    ru: "До $500 в месяц"
+  from_500_to_1000:
+    en: "$500 – $1,000/month"
+    ko: "월 $500–$1,000"
+    ru: "$500 – $1,000 в месяц"
+  from_1000_to_2000:
+    en: "$1,000 – $2,000/month"
+    ko: "월 $1,000–$2,000"
+    ru: "$1,000 – $2,000 в месяц"
+  over_2000:
+    en: "Over $2,000/month"
+    ko: "월 $2,000 이상"
+    ru: "Свыше $2,000 в месяц"
+
+summary_labels:
+  name:
+    en: "Name"
+    ko: "이름"
+    ru: "Имя"
+  age:
+    en: "Age"
+    ko: "나이"
+    ru: "Возраст"
+  country:
+    en: "Country"
+    ko: "국가"
+    ru: "Страна"
+  education:
+    en: "Education"
+    ko: "학력"
+    ru: "Образование"
+  field:
+    en: "Field of study"
+    ko: "전공 분야"
+    ru: "Область обучения"
+  arrival:
+    en: "Planned arrival"
+    ko: "예정 도착 시기"
+    ru: "Планируемый приезд"
+  budget:
+    en: "Monthly budget"
+    ko: "월 예산"
+    ru: "Ежемесячный бюджет"
+  email:
+    en: "Email"
+    ko: "이메일"
+    ru: "Email"
+
+confirm_buttons:
+  confirm:
+    en: "✅ Yes, submit"
+    ko: "✅ 네, 제출합니다"
+    ru: "✅ Да, отправить"
+  cancel:
+    en: "❌ Cancel"
+    ko: "❌ 취소"
+    ru: "❌ Отмена"
