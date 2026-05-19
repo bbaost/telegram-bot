@@ -31,6 +31,7 @@ jobs:
           host: ${{ secrets.SERVER_HOST }}
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: 2222
           script: |
             docker pull ghcr.io/${{ github.repository }}:latest
             docker stop korea-bot || true
