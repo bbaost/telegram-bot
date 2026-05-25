@@ -26,12 +26,4 @@ jobs:
           tags: ghcr.io/${{ github.repository }}:latest
 
       - name: Deploy
-        run: |
-          docker pull ghcr.io/${{ github.repository }}:latest
-          docker stop korea-bot || true
-          docker rm korea-bot || true
-          docker run -d --name korea-bot --restart unless-stopped \
-            --network host \
-            --env-file ~/korea-bot/.env \
-            -v ~/korea-bot/credentials.json:/app/credentials.json:ro \
-            ghcr.io/${{ github.repository }}:latest
+        run: kubectl rollout restart deployment/korea-bot
